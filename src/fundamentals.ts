@@ -8,7 +8,6 @@ import "./scss/styles.scss";
 /**
  * var vs let/const
  */
-/*
 function main() {
   console.log("START");
   if (true) {
@@ -20,8 +19,6 @@ function main() {
   console.log(lang);
   console.log(target);
 }
- */
-/*
 function main() {
   var x = 5;
   console.log(x);
@@ -33,9 +30,7 @@ function main() {
   let y = 100;
   console.log(y);
 }
-*/
 
-/*
 function main() {
   console.log(x);
   var x = 5;
@@ -43,12 +38,11 @@ function main() {
   console.log(y);
   let y = 10;
 }
- */
 
-/**
- * Data types
- */
-/*
+*
+*
+Data;
+types;
 function main() {
   let message: string;
   let total: number = 100;
@@ -63,7 +57,7 @@ function main() {
     DOWN,
     LEFT,
     RIGHT
-  };
+  }
 
   function log(msg: string): void {
     console.log(msg)
@@ -94,7 +88,6 @@ function main() {
     } as IPost;
   }
 }
- */
 
 function main() {}
 
